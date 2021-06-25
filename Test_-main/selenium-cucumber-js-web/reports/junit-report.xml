@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="add-to-cart-bukalapak;add-item-to-cart-bukalapak" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="@AddtoCartBukalapak" value="true">
+            </property>
+            <property name="URI" value="/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/features/addtocart.feature">
+            </property>
+        </properties>
+        <testcase name="Given User Login on Bukalapak" classname="add-to-cart-bukalapak;add-item-to-cart-bukalapak" time="13.183647873">
+        </testcase>
+        <testcase name="When User can Search item" classname="add-to-cart-bukalapak;add-item-to-cart-bukalapak" time="7.728371383">
+        </testcase>
+        <testcase name="And User can click item" classname="add-to-cart-bukalapak;add-item-to-cart-bukalapak" time="5.392895865">
+        </testcase>
+        <testcase name="And User will choose Ukuran &quot;Hitam-M&quot;" classname="add-to-cart-bukalapak;add-item-to-cart-bukalapak" time="0.106058822">
+        </testcase>
+        <testcase name="And User can click &quot;Masukkan Keranjang&quot; to add item in cart" classname="add-to-cart-bukalapak;add-item-to-cart-bukalapak" time="1.004297625">
+        </testcase>
+        <testcase name="And User can click &quot;Lihat Keranjang&quot; to open cart" classname="add-to-cart-bukalapak;add-item-to-cart-bukalapak" time="2.597274556">
+        </testcase>
+        <testcase name="Then User should see the item in Cart" classname="add-to-cart-bukalapak;add-item-to-cart-bukalapak" time="0.019008276">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-bukalapak;login-bukalapak" tests="5" failures="1" skipped="1">
+        <properties>
+            <property name="@LoginBukalapak" value="true">
+            </property>
+            <property name="URI" value="/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given User on the Bukalapak homepage" classname="login-bukalapak;login-bukalapak" time="5.997678425">
+        </testcase>
+        <testcase name="When User click &quot;Login&quot; for Login Page" classname="login-bukalapak;login-bukalapak" time="1.946040494">
+        </testcase>
+        <testcase name="And User can input email and password" classname="login-bukalapak;login-bukalapak" time="0.002841633">
+        </testcase>
+        <testcase name="And User click button &quot;Login&quot; to open an account" classname="login-bukalapak;login-bukalapak" time="6.148310263">
+            <failure message="TypeError: Cannot read property &apos;0&apos; of null">TypeError: Cannot read property &apos;0&apos; of null
+    at /home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/until.js:244:26
+    at ManagedPromise.invokeCallback_ (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:1384:14)
+    at TaskQueue.execute_ (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:3092:14)
+    at TaskQueue.executeNext_ (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:3075:27)
+    at asyncRun (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:2935:27)
+    at /home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: &lt;anonymous&gt;
+    at Timeout.pollCondition [as _onTimeout] (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:2203:19)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+From: Task: Waiting for element to be located By(css selector, .bl-avatar)
+    at scheduleWait (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:2196:20)
+    at ControlFlow.wait (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:2525:12)
+    at thenableWebDriverProxy.wait (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/webdriver.js:934:29)
+    at /home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/page-objects/login.js:24:27
+    at ManagedPromise.invokeCallback_ (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:1384:14)
+    at TaskQueue.execute_ (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:3092:14)
+    at TaskQueue.executeNext_ (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:3075:27)
+    at asyncRun (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:2935:27)
+    at /home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+        </testcase>
+        <testcase name="Then User should see transaction page with their profile" classname="login-bukalapak;login-bukalapak">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="register-bukalapak;register-new-account-with-valid-data" tests="10" failures="1" skipped="0">
+        <properties>
+            <property name="@RegisterBukalapak" value="true">
+            </property>
+            <property name="URI" value="/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/features/register.feature">
+            </property>
+        </properties>
+        <testcase name="Given User on the Bukalapak homepage for register" classname="register-bukalapak;register-new-account-with-valid-data" time="8.033109329">
+        </testcase>
+        <testcase name="When User click &quot;Daftar&quot; for registration" classname="register-bukalapak;register-new-account-with-valid-data" time="1.750292185">
+        </testcase>
+        <testcase name="And User can input data register for registration at Bukalapak" classname="register-bukalapak;register-new-account-with-valid-data" time="0.205251079">
+        </testcase>
+        <testcase name="And User click button &quot;Daftar&quot; to create new account" classname="register-bukalapak;register-new-account-with-valid-data" time="0.107857267">
+        </testcase>
+        <testcase name="Then User should see new pop up &quot;Verifikasi Pendaftaran&quot;" classname="register-bukalapak;register-new-account-with-valid-data" time="0.03143731">
+        </testcase>
+        <testcase name="And User click button &quot;Ya, kirim kode&quot; to get verification code" classname="register-bukalapak;register-new-account-with-valid-data" time="0.282949134">
+        </testcase>
+        <testcase name="And User should see &quot;Masukkan Kode Rahasia yang diterima via email di:&quot; in pop up" classname="register-bukalapak;register-new-account-with-valid-data" time="0.03936666">
+        </testcase>
+        <testcase name="And User can input valid verification code" classname="register-bukalapak;register-new-account-with-valid-data" time="0.182581277">
+        </testcase>
+        <testcase name="And User click button &quot;Verifikasi&quot; to verify and create account" classname="register-bukalapak;register-new-account-with-valid-data" time="0.029061359">
+        </testcase>
+        <testcase name="And User should see &quot;Akun kamu berhasil dibuat!&quot; in new page" classname="register-bukalapak;register-new-account-with-valid-data" time="0.062026307">
+            <failure message="NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.mb-12&quot;}">NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.mb-12&quot;}
+  (Session info: chrome=89.0.4389.114)
+  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Linux 5.4.0-58-generic x86_64)
+    at Object.checkLegacyResponse (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/error.js:529:15)
+    at parseHttpResponse (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/http.js:509:13)
+    at doSend.then.response (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: WebDriver.findElement(By(css selector, .mb-12))
+    at thenableWebDriverProxy.schedule (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/node_modules/selenium-webdriver/lib/webdriver.js:1014:17)
+    at Object.newpagetextContains (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/page-objects/register.js:48:23)
+    at createWorld.&lt;anonymous&gt; (/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/step-definitions/register.step.js:50:30)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="search-bukalapak;search-item-bukalapak" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@SearchBukalapak" value="true">
+            </property>
+            <property name="URI" value="/home/agrgians6714/TEST/test_selenium_1/selenium-cucumber-js-master/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given User Login on Bukalapak" classname="search-bukalapak;search-item-bukalapak" time="13.236615635">
+        </testcase>
+        <testcase name="When User Input text to Search Item" classname="search-bukalapak;search-item-bukalapak" time="0.344408081">
+        </testcase>
+        <testcase name="And User will click search icon" classname="search-bukalapak;search-item-bukalapak" time="6.896741193">
+        </testcase>
+        <testcase name="Then User should see &quot;baju&quot; appear in screen" classname="search-bukalapak;search-item-bukalapak" time="0.051485394">
+        </testcase>
+    </testsuite>
+</testsuites>
